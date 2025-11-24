@@ -21,9 +21,9 @@ else:
 media = (s1 + s2) / 2
 if media >= 7:
     print (("=" * 20))
-    print ("Excelente {}, sua média final foi {}! Você passou!!!".format(nome, media))
+    print ("Excelente {}, sua média final foi {:.1f}! Você passou!!!".format(nome, media))
     print (("=" * 20))
 elif media < 6:
     print (("=" * 20))
-    print ("Poxa {}, sua média final foi de apenas {}... Você reprovou!".format(nome, media))
+    print ("Poxa {}, sua média final foi de apenas {:.1f}... Você reprovou!".format(nome, media))
     print (("=" * 20))
